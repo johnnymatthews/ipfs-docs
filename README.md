@@ -1,66 +1,55 @@
-![IPFS documentation logo.](ipfs-docs-header.png)
-[![Build status icon.](https://img.shields.io/circleci/project/github/ipfs/ipfs-docs/master.svg?style=flat-square)](https://circleci.com/gh/ipfs/ipfs-docs)
-[![Made by icon.](https://img.shields.io/badge/made%20by-Protocol%20Labs-blue.svg?style=flat-square)](https://protocol.ai/)
-[![Project icon.](https://img.shields.io/badge/project-IPFS-blue.svg?style=flat-square)](http://ipfs.io/)
+---
+title: IPFS Documentation
+legacyUrl: https://docs.ipfs.io/
+description: The home page for developer documentation for IPFS, the InterPlanetary File System.
+---
 
-This repository organizes overall documentation issues across the IPFS project.
+# Learn how to build the future of the internet
 
-**If you'd just like to read the IPFS docs, we recommend the website version of the info contained in this repo! https://docs.ipfs.io**
+::: callout
+No matter who you are or what you're creating, you can be part of the movement to create the next generation of the internet. This site contains everything you need to start building using the InterPlanetary File System (IPFS) and pave the way for the future Web.
+:::
 
-## Get involved
+Check out some of the most popular content in these docs below — or explore the main site menu to learn about [key concepts](concepts/README.md), try out [how-to guides](how-to/README.md), see [API and CLI references](reference/README.md), or just [install IPFS](install/README.md) and get hacking.
 
-We would **love ❤️ your help** to improve existing items or make new ones even better! [We also have bounties available](https://github.com/ipfs/devgrants/projects/1)!
+## Download IPFS tools
 
-### Issues
+These tools can help you use and build on IPFS more quickly and efficiently — give them a try today!
 
-If you find something wrong within this repository, please raise an [issue here →](https://github.com/ipfs/ipfs-docs/issues). Unless the issue is urgent, updates will be batch-merged into `main` on Tuesdays or Thursdays.
+| [Browser Companion](https://github.com/ipfs-shipyard/ipfs-companion)            | [IPFS Desktop](https://github.com/ipfs-shipyard/ipfs-desktop)                                          | [IPLD Explorer](https://explore.ipld.io/)                           |
+| ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------- |
+| ![The IPFS browser companion in Firefox.](./images/ipfs-companion.png =300x200) | ![The IPFS desktop app running on MacOS with the status tab open.](./images/ipfs-desktop.png =300x200) | ![The IPLD Explorer homepage.](./images/ipld-explorer.png =300x200) |
 
-### Bounties
+## Host your website on IPFS
 
-You can earn the undying love of the IPFS community _and_ make some money by closing an issue with the [`bounty` tag](https://github.com/ipfs/ipfs-docs/issues?q=is%3Aopen+is%3Aissue+label%3Abounty)! Submissions must be production-ready and meet all the specifications listed on the issue page. Check out the [current list of open bounties →](https://github.com/ipfs/devgrants/projects/1)
+Protect yourself from single-point-of-failure risks and benefit from decentralized infrastructure by hosting your static website using IPFS. If you're new to IPFS, this is an excellent place to start learning how to build on the decentralized web.
 
-If you are attempting to close an issue, great! Thanks for the help! Please leave a comment within the issue requesting to be assigned to that issue **before** submitting a pull request. This minimizes the chance of multiple different contributors duplicating work by submitting pull requests for the same issue. If you submit a pull request to an issue _without_ first being assigned to it, that pull request may not be accepted.
+[Start the tutorial →](how-to/websites-on-ipfs/single-page-website.md)
 
-### Suggestions
+## Learn about the decentralized web
 
-Everyone has an opinion when it comes to docs, and **that's a good thing**! Having folks from different backgrounds add to a discussion empowers everyone within that discussion. So if you've got something to add or would like to bring up a topic for discussion about the IPFS Docs project, please do so! [Just create an issue using the `kind/question` tag!](https://github.com/ipfs/ipfs-docs/issues?q=is%3Aopen+is%3Aissue+label%3Akind%2Fquestion).
+Want to know more about the decentralized web (DWeb) and how it's changing the internet? These resources will give you a clearer understanding of the DWeb movement, and how it's improving the world:
 
-#### Pull requests welcome
+- [What is IPFS](concepts/what-is-ipfs.md)
+- [Peer-to-peer sharing](concepts/dht.md)
+- [Content-addressed data](concepts/content-addressing.md)
 
-Feel free to submit pull requests with any changes you'd like to see! If you're simply changing a typo or editing out a styling bug, you can add `ciskip` to the title of your pull request to stop Filecorgi from running.
+[See more guides in the Concepts section →](concepts/README.md)
 
-## Project set up
+::: callout
+ProtoSchool's self-guided [interactive tutorials](https://proto.school/tutorials) are designed to introduce you to decentralized web concepts, protocols, and tools. Explore JS-IPFS APIs by completing browser-based coding challenges in ProtoSchool's [IPFS course](https://proto.school/course/ipfs), or explore code-free intros to essential DWeb concepts and related projects in the IPFS ecosystem.
+:::
 
-If you want to build this site locally, run the following:
+## See what others are building
 
-1. Clone this repository:
+Are you looking for inspiration? You can find a huge collection of awesome community projects over at Awesome IPFS.
 
-   ```bash
-   git clone https://github.com/ipfs/ipfs-docs.git
-   ```
+[Check out Awesome IPFS now →](https://awesome.ipfs.io/)
 
-1. Move into the `ipfs-docs` folder and install the NPM dependencies:
+![The Awesome IPFS homepage.](./images/awesome-ipfs.png =740x420)
 
-   ```bash
-   cd ipfs-docs
-   npm install
-   ```
+## Be part of the IPFS community
 
-1. Boot up the application in _dev mode_:
+IPFS has a bustling community of designers, developers, writers, and activists who are all helping to improve the project. You can join in by attending a local meetup, helping out at a conference, chatting online through [Matrix channels](community/chat.md), or joining a discussion in [the IPFS forum](https://discuss.ipfs.io/).
 
-   ```bash
-   npm start
-   ```
-
-1. Open [localhost:8080](http://localhost:8080) in your browser.
-1. Close the local server with `CTRL` + `c`.
-1. To restart the local server, run `npm start` from within the `ipfs-docs` folder.
-
-## Core members
-
-- [@johnnymatthews](https://github.com/johnnymatthews): Project leadership, organization, and primary contact
-- [@cwaring](https://github.com/cwaring): Development support
-
-## License
-
-All software code is copyright (c) Protocol Labs, Inc. under the **MIT license**. Other written documentation and content is copyright (c) Protocol Labs, Inc. under the [**Creative Commons Attribution-Share-Alike License**](https://creativecommons.org/licenses/by/4.0/).
+[Find out more in the Community section →](community/README.md)
